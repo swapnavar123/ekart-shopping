@@ -1,0 +1,131 @@
+.nav-bar
+{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color:rgb(113, 162, 205);
+  box-shadow: 0 3px 9px 3px rgba(0.0.0,0.1);
+  height:fit-content;
+}
+.nav-left{
+    padding-left:10px;
+    padding-top:10px;
+    display:flex;
+    flex-direction:row;
+    margin:10px;
+    border:white;
+    justify-content:space-evenly;
+}
+.logo-here{
+    height:80px;
+}
+.nav-right{
+    padding-right: 100px;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+}
+.nav-center{
+    padding-right: 100px;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    margin:5px;
+    
+}
+.a-element{
+    padding:15px;
+    font-size: 20px;
+    align-items: center;
+    color:white;
+}
+.a-element:hover{
+    color:black;
+}
+.logo-name{
+    padding-left:10px;
+    color:white;
+    font-size:25px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.bag-here{
+    height:50px;
+    padding-left:25px;
+    background-color:rgb(212, 212, 184); ;
+}
+.fas{
+    height:50px;
+    padding-left:10px;
+}
+.badge:after{
+    content:attr(value);
+    font-size:25px;
+    color: #fff;
+    background: red;
+    border-radius:50%;
+    padding: 0 5px;
+    position:relative;
+    left:-8px;
+    top:-10px;
+    opacity:0.9;
+}
+.fa badge fa-lg{
+    padding-left:10px;
+    padding-top:10px;
+    align-items: center;
+}
+.carousel-item active{
+    height:100vh;
+    width:100vh;
+}
+.carousel-item active{
+    height: auto;
+    width: auto;
+}
+.first-slide{
+    font-size:30px;
+    color:black;
+    padding-bottom: 100vx;
+}
+#newsletter{
+    background-color:whitesmoke;
+}
+#newsletter p{
+    max-width:600px;
+}
+#newsletter .input-group{
+    max-width: 500px;;
+}
+#newsletter .form-control{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+#newletter .btn{
+    background-color: var(--pink);
+    color: #fff;
+    border-color: pink;
+}
+#newsletter .btn:hover{
+    background-color:pink;
+    border-color:black ;
+}
+.endsecp{
+    background-color: grey;
+}
+.heading{
+    font-size: 25px;
+    color:black;
+    font-style: oblique;
+    
+    
+}
+.parap{
+    color:white;
+    font-size: 20px;
+    font-style: italic;
+}
+.end{
+    background-color: rgb(104, 178, 211);
+}
